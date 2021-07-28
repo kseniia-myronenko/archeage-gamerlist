@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ArcheGamersEfficiency</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	<%= stylesheet_link_tag "dialog","fullcalendar","jquery-ui","style" %>
+	<%= javascript_include_tag "jrails1/fullcalendar.js","jrails1/jquery-ui.js","jrails1/gcal.js","jrails1/jrails.js","jrails1/jquery.validate.js" %>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

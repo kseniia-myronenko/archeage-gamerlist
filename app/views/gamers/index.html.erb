@@ -1,0 +1,23 @@
+<div class="header-background">
+
+	<div class="header-background--darker">
+
+		<h1>ДКП</h1>
+
+	</div>
+
+</div>
+
+<div class="gamer-list--wrapper">
+<%= link_to "Добавить игрока", new_gamer_path, class: 'btn btn-success add-gamer--button' %>	
+	<% @gamers.each do |gamer| %>
+		<div class="gamer-data">
+			<p><span class="title"><%= gamer.name %></span></p>
+			<p><span class="title"><%= gamer.guildname %></span></p>
+			<p><span class="title"><%= link_to "Редактировать", edit_gamer_path(gamer.id), class: 'btn btn-success' %></span></p>
+			<p><span class="title"><%= link_to "Удалить", gamer_path(gamer.id), method: :delete, data:{ confirm: "Вы уверены?", class: "deleteAction"}, class: 'btn btn-danger' %></span></p>
+		</div>
+	<% end %>
+</div>
+
+<div class="girl-image"></div>

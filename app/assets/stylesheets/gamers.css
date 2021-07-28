@@ -1,0 +1,107 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+*= jquery.ui.datepicker
+*= require bootstrap
+*= require simple_calendar
+
+html, body, p{
+	margin: 0;
+	padding: 0;
+}
+
+/*html{
+	background-image: url('https://cutewallpaper.org/21/archeage-wallpapers/ArcheAge-Unchained-Public-Test-Server-opens-today.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}*/
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #ffffffc2;
+	position: relative;
+}
+
+h1 {
+	padding: 80px 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	max-width: 55%;
+}
+
+.header-background{
+	background: url('https://mmozg.net/uploads/images/00/00/01/2013/03/15/40eda8.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 5px 5px 10px #00800096;
+}
+
+.header-background--darker{
+	width: 100%;
+	height: 100%;
+	background-color: #000000a1;
+}
+
+.new-gamer--form{
+	margin: 50px auto 0 auto;
+	max-width: 40%;
+}
+
+.back-button-container{
+	margin: 20px 0;
+}
+
+.gamer-list--wrapper{
+	max-width: 85%;
+	margin: 30px auto;
+}
+
+.add-gamer--button{
+	margin-bottom: 30px;
+}
+
+.gamer-data{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #efeeee;
+	margin: 5px;
+	padding: 20px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.gamer-data:hover, .gamer-data:focus{
+	background-color: #c3dab1;
+}
+
+.gamer-data p{
+	margin: 5px;
+}
+
+.title{
+	color: #175f2b;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.worst-gamers{
+	margin-bottom: 15px;
+}
+
+/*.girl-image{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url('https://mmozg.net/uploads/images/00/00/01/2013/03/15/40eda8.png');
+	background-repeat: no-repeat;
+	top: 150px;
+	left: 20px;
+}*/

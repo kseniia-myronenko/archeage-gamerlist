@@ -1,0 +1,2 @@
+class NewtablesController < ApplicationController
+end

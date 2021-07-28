@@ -1,0 +1,12 @@
+<div class="new-gamer--form">
+	<%= simple_form_for @gamer do |f| %>
+		<%= f.input :name, label: 'Никнейм' %>
+		<%= f.input :guildname, label: 'Гильдия' %>
+		<%= f.input :kraken, label: 'Кракен' %>
+		<%= f.input :dragon, label: 'Дракон' %>
+		<%= f.input :korvus, label: 'Корвус' %>
+		<%= f.button :submit, 'Сохранить', class: 'btn btn-success' %>
+	<% end %>
+	<%= link_to 'Отмена', root_path, class: "btn btn-danger back-button-container" %>
+		
+</div>
