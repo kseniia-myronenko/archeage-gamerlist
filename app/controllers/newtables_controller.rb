@@ -1,2 +1,0 @@
-class NewtablesController < ApplicationController
-end

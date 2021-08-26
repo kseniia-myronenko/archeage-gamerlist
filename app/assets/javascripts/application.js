@@ -6,9 +6,8 @@
 //
 
 //= require twitter/bootstrap
-//= require_tree .
 //= require jquery
 //= require jquery_ujs
+//= require fullcalendar/locale-all
 //= require moment
-//= require bootstrap-datetimepicker
-//= require jquery.ui.datepicker
+//= require fullcalendar

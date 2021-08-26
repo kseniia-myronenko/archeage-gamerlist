@@ -44,6 +44,13 @@ class GamersController < ApplicationController
   def korvus
 	@gamer = Gamer.find params[:id]
   end 
+  
+  def show
+	@gamer = Gamer.find params[:id]
+	@gamer.destroy
+	
+	redirect_to root_path
+  end
 
   def destroy
 	@gamer = Gamer.find params[:id]
